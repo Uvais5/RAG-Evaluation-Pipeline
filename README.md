@@ -24,23 +24,6 @@ Key components:
 - LLM Judge: Gemini model for nuanced scoring.
 - Similarity thresholds: Configurable for relevance and hallucination detection.
 
-## User Message
-     ↓
-AI Response
-     ↓
-─────────────────────────────
-Evaluation Pipeline
-─────────────────────────────
-│
-├─ Embedding-based Relevance
-├─ LLM-as-Judge Scoring
-├─ Claim Extraction
-├─ Context Similarity Check
-├─ Hallucination Detection
-├─ Latency Measurement
-├─ Estimated Cost Calculation
-│
-└─ Verdict: PASS / REVIEW / FAIL
 
 
 ## Design Decisions
