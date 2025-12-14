@@ -70,7 +70,8 @@ This design ensures the pipeline can handle high volumes while maintaining real-
 
 1. **Clone or navigate to the repository:**
    ```
-   cd "C:\Machine Learning\intern-ass"
+   git clone https://github.com/Uvais5/RAG-Evaluation-Pipeline.git
+   cd "RAG-Evaluation-Pipeline"
    ```
 
 2. **Create a virtual environment:**
@@ -101,5 +102,6 @@ This design ensures the pipeline can handle high volumes while maintaining real-
    python main.py
    ```
    - Results will be printed to the console and saved as JSON files (e.g., `results_sample-chat-conversation-01.json`).
+
 
 
