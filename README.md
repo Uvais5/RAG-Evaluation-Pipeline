@@ -102,6 +102,7 @@ This design ensures the pipeline can handle high volumes while maintaining real-
    python main.py
    ```
    - Results will be printed to the console and saved as JSON files (e.g., `results_sample-chat-conversation-01.json`).
+  - The generated result JSONs are included in the repository for reference.
 
 
 
