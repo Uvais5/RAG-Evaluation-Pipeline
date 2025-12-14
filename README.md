@@ -2,41 +2,6 @@
 
 This project implements an automated evaluation pipeline for RAG (Retrieval-Augmented Generation) systems. It evaluates chat conversations between users and AI assistants, assessing relevance, completeness, hallucination rates, and other metrics to determine if responses pass, fail, or need review.
 
-## Local Setup Instructions
-
-1. **Clone or navigate to the repository:**
-   ```
-   cd "C:\Machine Learning\intern-ass"
-   ```
-
-2. **Create a virtual environment:**
-   ```
-   python -m venv .venv
-   .venv\Scripts\activate
-   ```
-
-3. **Install dependencies:**
-   ```
-   pip install numpy sentence_transformers google-genai python-dotenv
-   ```
-
-4. **Set up environment variables:**
-   - Create a `.env` file in the root directory.
-   - Add your Gemini API key:
-     ```
-     GEMINI_API_KEY=your_actual_api_key_here
-     ```
-   - Ensure `.env` is added to `.gitignore` to avoid committing sensitive data.
-
-5. **Prepare data files:**
-   - Place chat conversation JSON files in the `data/` directory (e.g., `sample-chat-conversation-01.json`).
-   - Place corresponding context vector JSON files in the `data/` directory (e.g., `sample_context_vectors-01.json`).
-
-6. **Run the evaluation:**
-   ```
-   python main.py
-   ```
-   - Results will be printed to the console and saved as JSON files (e.g., `results_sample-chat-conversation-01.json`).
 
 ## Architecture of the Evaluation Pipeline
 
@@ -98,4 +63,43 @@ To ensure low latency and minimal costs at scale:
   - Implement caching layers (Redis) for embeddings and results.
   - Database storage for historical evaluations with indexing for fast queries.
 
+
 This design ensures the pipeline can handle high volumes while maintaining real-time performance and controlling costs.
+
+## Local Setup Instructions
+
+1. **Clone or navigate to the repository:**
+   ```
+   cd "C:\Machine Learning\intern-ass"
+   ```
+
+2. **Create a virtual environment:**
+   ```
+   python -m venv .venv
+   .venv\Scripts\activate
+   ```
+
+3. **Install dependencies:**
+   ```
+   pip install numpy sentence_transformers google-genai python-dotenv
+   ```
+
+4. **Set up environment variables:**
+   - Create a `.env` file in the root directory.
+   - Add your Gemini API key:
+     ```
+     GEMINI_API_KEY=your_actual_api_key_here
+     ```
+   - Ensure `.env` is added to `.gitignore` to avoid committing sensitive data.
+
+5. **Prepare data files:**
+   - Place chat conversation JSON files in the `data/` directory (e.g., `sample-chat-conversation-01.json`).
+   - Place corresponding context vector JSON files in the `data/` directory (e.g., `sample_context_vectors-01.json`).
+
+6. **Run the evaluation:**
+   ```
+   python main.py
+   ```
+   - Results will be printed to the console and saved as JSON files (e.g., `results_sample-chat-conversation-01.json`).
+
+
