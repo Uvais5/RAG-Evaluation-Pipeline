@@ -24,6 +24,25 @@ Key components:
 - LLM Judge: Gemini model for nuanced scoring.
 - Similarity thresholds: Configurable for relevance and hallucination detection.
 
+## User Message
+     ↓
+AI Response
+     ↓
+─────────────────────────────
+Evaluation Pipeline
+─────────────────────────────
+│
+├─ Embedding-based Relevance
+├─ LLM-as-Judge Scoring
+├─ Claim Extraction
+├─ Context Similarity Check
+├─ Hallucination Detection
+├─ Latency Measurement
+├─ Estimated Cost Calculation
+│
+└─ Verdict: PASS / REVIEW / FAIL
+
+
 ## Design Decisions
 
 This architecture was chosen for several reasons:
@@ -103,6 +122,7 @@ This design ensures the pipeline can handle high volumes while maintaining real-
    ```
    - Results will be printed to the console and saved as JSON files (e.g., `results_sample-chat-conversation-01.json`).
   - The generated result JSONs are included in the repository for reference.
+
 
 
 
