@@ -82,7 +82,7 @@ This design ensures the pipeline can handle high volumes while maintaining real-
 
 3. **Install dependencies:**
    ```
-   pip install numpy sentence_transformers google-genai python-dotenv
+   pip install -r requirements.txt
    ```
 
 4. **Set up environment variables:**
@@ -102,6 +102,7 @@ This design ensures the pipeline can handle high volumes while maintaining real-
    python main.py
    ```
    - Results will be printed to the console and saved as JSON files (e.g., `results_sample-chat-conversation-01.json`).
+
 
 
 
