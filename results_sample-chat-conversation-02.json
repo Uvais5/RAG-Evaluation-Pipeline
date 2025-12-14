@@ -1,0 +1,116 @@
+{
+    "individual_turn_reports": [
+        {
+            "chat_id": 53911,
+            "turn_pair": "Turn 1 -> Turn 2",
+            "latency_ms": 0,
+            "relevance_score": 0.2589,
+            "completeness_score": 0.5,
+            "supported_claims": 0,
+            "unsupported_claims": 1,
+            "hallucination_rate": 0.0,
+            "estimated_cost": 0.0095,
+            "verdict": "FAIL",
+            "user_message": "I need medical advice",
+            "assistant_message": "That's great, may I know what are you looking to know more about?"
+        },
+        {
+            "chat_id": 53911,
+            "turn_pair": "Turn 4 -> Turn 5",
+            "latency_ms": 10000,
+            "relevance_score": 0.6078,
+            "completeness_score": 0.5,
+            "supported_claims": 4,
+            "unsupported_claims": 2,
+            "hallucination_rate": 0.3333,
+            "estimated_cost": 0.0825,
+            "verdict": "REVIEW",
+            "user_message": "My amh 0.68 afc 4 age 34+.doctor advised for donor egg. Should I go with donor egg or self egg",
+            "assistant_message": "I understand your situation and the dilemma you're facing. It can be difficult to decide whether to proceed with donor eggs or try with your own eggs, especially with a low AMH level. Several factors should be considered like success rates, costs, and your personal preferences. We have seen that fresh eggs have slightly higher success rates but are more expensive, while frozen eggs offer more flexibility and lower costs, with potentially slightly lower success rates. Many women with low AMH still consider trying IVF with their own eggs before moving to donor eggs. Have you tried IVF with your own eggs before, or is this your first IVF cycle?"
+        },
+        {
+            "chat_id": 53911,
+            "turn_pair": "Turn 6 -> Turn 7",
+            "latency_ms": 7000,
+            "relevance_score": 0.5237,
+            "completeness_score": 0.5,
+            "supported_claims": 3,
+            "unsupported_claims": 2,
+            "hallucination_rate": 0.4,
+            "estimated_cost": 0.059,
+            "verdict": "REVIEW",
+            "user_message": "I have tried 5 cycles of ovulation induction.this is first ivf cycle",
+            "assistant_message": "I see, you've already been through several ovulation induction cycles, and now you're considering your first IVF cycle. That shows a lot of commitment. Given your history and current situation, deciding between using your own eggs and donor eggs can be tough. Some women in your situation are primarily concerned about maximizing their chances of success, while others place a higher value on having a child with their own genetic material. Which of these is more important to you?"
+        },
+        {
+            "chat_id": 53911,
+            "turn_pair": "Turn 8 -> Turn 9",
+            "latency_ms": 7000,
+            "relevance_score": 0.6243,
+            "completeness_score": 0.5,
+            "supported_claims": 3,
+            "unsupported_claims": 2,
+            "hallucination_rate": 0.2857,
+            "estimated_cost": 0.0915,
+            "verdict": "REVIEW",
+            "user_message": "So I just want to know is going on donor egg is right choice",
+            "assistant_message": "I understand you're looking for a definitive answer on whether donor eggs are the right choice. It's a very personal decision, and what's \"right\" depends on your individual priorities and circumstances. While using your own eggs might be emotionally preferable, success rates are generally lower with diminished ovarian reserve. IVF with donor eggs often has higher success rates, especially when using frozen donor eggs from an egg bank, where we guarantee at least 7 top-quality mature eggs. To help you make an informed decision, I recommend scheduling a consultation where we can discuss your specific case and success rates in detail. You can book a consultation call at [https://pages.razorpay.com/ivfconsultation](https://pages.razorpay.com/ivfconsultation). Have you had your antral follicle count tested via a vaginal ultrasound scan?"
+        },
+        {
+            "chat_id": 53911,
+            "turn_pair": "Turn 10 -> Turn 11",
+            "latency_ms": 6000,
+            "relevance_score": 0.3519,
+            "completeness_score": 0.5,
+            "supported_claims": 3,
+            "unsupported_claims": 1,
+            "hallucination_rate": 0.2,
+            "estimated_cost": 0.048,
+            "verdict": "FAIL",
+            "user_message": "Afc is 4",
+            "assistant_message": "Thank you for confirming your AFC. Considering your low AMH and AFC, success with your own eggs might be challenging. The decision to use donor eggs is significant, and it's essential to weigh all options. We understand that this can be an emotional decision. Are you aware of our clinic's success rates with donor egg IVF, especially with frozen eggs from our egg bank?"
+        },
+        {
+            "chat_id": 53911,
+            "turn_pair": "Turn 12 -> Turn 13",
+            "latency_ms": 9000,
+            "relevance_score": 0.6697,
+            "completeness_score": 0.5,
+            "supported_claims": 0,
+            "unsupported_claims": 2,
+            "hallucination_rate": 0.3333,
+            "estimated_cost": 0.0695,
+            "verdict": "REVIEW",
+            "user_message": "Yes. What are cons of not having genetically related child except for being emotional",
+            "assistant_message": "I understand you're wondering about the non-emotional downsides of not having a genetically related child. While the emotional aspect is often the most significant, it's reasonable to consider other factors as well. Some people have concerns about the child not sharing their family history or genetic predispositions. However, remember that even within a family, genes combine in unique ways, and each child is an individual. Also remember, the emotional bond is equally important than genetics. Would you like to learn more about our egg donation program and how we carefully screen our donors?"
+        },
+        {
+            "chat_id": 53911,
+            "turn_pair": "Turn 14 -> Turn 15",
+            "latency_ms": 7000,
+            "relevance_score": 0.5748,
+            "completeness_score": 0.5,
+            "supported_claims": 6,
+            "unsupported_claims": 1,
+            "hallucination_rate": 0.1429,
+            "estimated_cost": 0.0855,
+            "verdict": "REVIEW",
+            "user_message": "I am open to donor option. I am happy that I will get a my baby. Just want to know  will my donor egg baby have some other later in life.",
+            "assistant_message": "I understand your concern about the long-term health of a baby conceived through donor eggs. It's natural to wonder about potential risks. Please be assured that egg donors undergo thorough screening for genetic and infectious diseases to minimize these risks. We do genetic screening, along with taking a detailed family history of the donor to determine the presence of any diseases that may be transmitted to the unborn child. This helps ensure the health of the eggs used in the IVF cycle. Also, we only use frozen eggs in our clinic to prevent the inadvertent transmission of HIV/AIDS through IVF. Do you have any questions about the legal contracts involved in donor egg IVF?"
+        }
+    ],
+    "overall_summary": {
+        "chat_id": 53911,
+        "total_turn_pairs_evaluated": 7,
+        "metrics_averages": {
+            "avg_relevance_score": 0.5159,
+            "avg_completeness_score": 0.5,
+            "avg_latency_ms": 7666.67
+        },
+        "verdict_summary": {
+            "PASS": 0,
+            "REVIEW": 5,
+            "FAIL": 2
+        }
+    }
+}
