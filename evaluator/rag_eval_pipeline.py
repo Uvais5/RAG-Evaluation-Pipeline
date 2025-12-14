@@ -216,26 +216,7 @@ Return ONLY valid JSON:
     report = self.get_report(chat_turns, chat_id, chat_json, vector_json)
     # report = []
     
-    # for i in range(len(chat_turns) - 1):
-    #     user_message = chat_turns[i]
-    #     ai_message = chat_turns[i + 1]
-      
-    #     is_user = user_message.get("sender_id") == chat_json.get("user_id")
-    #     is_ai = ai_message.get("sender_id") != chat_json.get("user_id")
-    
-    #     if is_user and is_ai:
-    #         # print(is_user)
-    #         if user_message.get("message") and ai_message.get("message"):
-    #             get_report = self.evaluation_turn(
-    #                 user_message,
-    #                 ai_message,
-    #                 chat_id,
-    #                 vector_json
-    #             )
-    #             report.append(get_report)
-        
-    # if not report:
-    #     return [], {"error": "No valid User → AI turn pairs found"}
+   
 
 
     # Aggregate Conversation Metrics
@@ -261,3 +242,4 @@ Return ONLY valid JSON:
     }
 
     return report, summary
+
